@@ -1,0 +1,17 @@
+import webbrowser
+
+url = 'https://www.facebook.com/groups/1563559987189612/'
+webbrowser.get().open_new(url)
+
+
+
+
+# Windows
+# chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+# webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open("http://google.com")
+
+# webbrowser.get(chrome_path).open(url)
+# new = 2 # open in a new tab, if possible
+
+# open a public URL, in this case, the webbrowser docs
+# url = "https://docs.python.org/library/webbrowser.html"
